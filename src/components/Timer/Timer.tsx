@@ -66,7 +66,7 @@ const Timer: React.FC = () => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+        <div className="flex flex-col items-center justify-center min-h-screen">
             <TimerDisplay
                 timeLeft={timeLeft}
                 totalTime={isWorkTime ? workTime : breakTime}

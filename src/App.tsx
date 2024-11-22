@@ -3,8 +3,7 @@ import { Timer } from "./components";
 
 const App: React.FC = () => {
     return (
-        <div>
-            <h1>タイマーアプリ</h1>
+        <div className="bg-gray-100">
             <Timer />
         </div>
     );
