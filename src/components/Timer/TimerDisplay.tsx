@@ -15,7 +15,7 @@ const TimerDisplay: React.FC<TimerDisplayProps> = ({ timeLeft, totalTime, isWork
     };
 
     return (
-        <div className="w-60">
+        <div className="w-40 sm:w-60 ">
             <CircularProgressbar
                 value={(timeLeft / totalTime) * 100}
                 text={formatTime(timeLeft)}
